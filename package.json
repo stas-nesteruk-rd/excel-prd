@@ -41,10 +41,11 @@
     "sass": "^1.27.0",
     "sass-loader": "^10.0.4",
     "webpack": "4.44.2",
-    "webpack-cli": "^4.1.0",
-    "webpack-dev-middleware": "^3.7.2"
+    "webpack-cli": "3.3.12",
+    "webpack-dev-server": "3.11.0"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.12.1"
+    "@babel/polyfill": "^7.12.1",
+    "normalize.css": "^8.0.1"
   }
 }
