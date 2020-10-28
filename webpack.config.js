@@ -73,7 +73,7 @@ module.exports = {
         test: /\.s[ac]ss$/i,
         use: [
           {
-            loader: 'MiniCssExtractPlugin.loader',
+            loader: MiniCssExtractPlugin.loader,
             options: {
               hmr: isDev,
               reloadAll: true,
